@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.15.3",
+    "swiper": "^5.3.6",
+    "v-mask": "^2.2.4",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-click-outside": "^1.1.0",
+    "vue-scrollto": "^2.20.0",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "fibers": "^5.0.0",
+    "sass": "^1.34.1",
+    "sass-loader": "^10.2.0"
+  }
+}
